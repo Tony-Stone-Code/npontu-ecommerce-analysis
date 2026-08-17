@@ -9,11 +9,11 @@ The goal of this project is to analyze a synthetic dataset representing customer
 **Key Features:**
 1. **Synthetic Data Generation**: Simulates a realistic e-commerce environment with 50,000 customers, 500,000 transactions, and over 1.8M behavioral events, specifically tailored to African markets (e.g., Mobile Money preference, key African cities).
 2. **Big Data / Data Processing**: Uses optimized **Pandas** to process and aggregate millions of rows of transaction and browsing data efficiently. (Note: Elasticsearch handles the Big Data search/dashboarding requirement).
-3. **Data Science & ML**: A complete Jupyter Notebook (`notebooks/analysis.ipynb`) featuring:
+3. **Data Science & ML**: A complete pipeline featuring:
    - Exploratory Data Analysis (EDA) and Data Cleaning
    - Feature Engineering (RFM and Behavioral metrics)
    - Predictive Modeling (Logistic Regression baseline & XGBoost)
-   - Business Insights and Recommendations
+   - 👉 **[View the Business Insights, Visualizations, and Model Results Here](INSIGHTS.md)**
 4. **Elasticsearch & Kibana Integration**: Scripts provided to ingest the processed data into **Elastic Cloud** for real-time search and interactive dashboarding, fulfilling the Big Data tooling requirement.
 
 ## Directory Structure
