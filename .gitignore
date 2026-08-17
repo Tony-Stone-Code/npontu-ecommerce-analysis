@@ -6,3 +6,4 @@ data/*.csv
 reports/*.html
 .jupyter/
 .jupyter_data/
+docs/
